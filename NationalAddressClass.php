@@ -345,7 +345,7 @@ class NationalAddressAPI {
 	* @return Response
 	*
 	*/
-	public function ServiceSubCategoriesLookup(){
+	public function MapEngine(){
 		$data = $this->API("v3.1/maps/map-engine");
 		return $data; // JSON (default) ? XML ?
 	}
