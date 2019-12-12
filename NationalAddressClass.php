@@ -334,7 +334,7 @@ class NationalAddressAPI {
 	*
 	*/
 	public function ServiceSubCategoriesLookup($servicecategoryId, $language = 'A', $mime_type= 'json'){
-		$data = $this->API("v3.1/lookup/service-categories?servicecategoryid=${servicecategoryId}&language=${language}&format=${mime_type}");
+		$data = $this->API("v3.1/lookup/service-sub-categories?servicecategoryid=${servicecategoryId}&language=${language}&format=${mime_type}");
 		return $data; // JSON (default) ? XML ?
 	}
 	
