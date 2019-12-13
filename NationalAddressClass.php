@@ -50,9 +50,7 @@ class NationalAddressAPI {
 	*
 	* Search bulk address API allows user to find complete details of multiple address by providing building number, zip code for the addresses .
 	*
-	* @param int $latitude
-	*
-	* @param int $longitude
+	* @param string $address
 	*
 	* @param string $language
 	*
